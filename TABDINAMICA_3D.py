@@ -34,7 +34,7 @@ for id,line in enumerate(baseINFO):
     line = line.replace('\n','').split('\t')
     if line[cab.index('GRUPO SITUAÇÃO VÍNCULO')] == 'ATIVO':
     
-        #AREA DE FILTROS, FAVOR ANOTAR A PORRA DO FILTRO INSERIDO E SALVAR O SCRIPT COM NOME DIFERENTE, PREFERENCIALMENTE COM DATA
+        #AREA DE FILTROS, ANOTAR O FILTRO INSERIDO E SALVAR O SCRIPT COM NOME DIFERENTE, PREFERENCIALMENTE COM DATA
     
             if line[cab.index('COR ORIGEM ETNICA')] == 'PARDA' or line[cab.index('COR ORIGEM ETNICA')] == 'PRETA':
                 line[cab.index('COR ORIGEM ETNICA')] = 'NEGRA'
